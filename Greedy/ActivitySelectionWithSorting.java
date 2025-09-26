@@ -2,6 +2,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 public class ActivitySelectionWithSorting {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class ActivitySelectionWithSorting {
             arr[i][2] = end[i];
         }
 
-        Arrays.sort(arr, Comparator.comparingDouble(o -> o[2]));
+        Arrays.sort(arr, Comparator.comparingDouble(index -> index[2]));
         ArrayList<Integer> list = new ArrayList<>();
         int endLast = arr[0][2];
         list.add(arr[0][0]);
@@ -27,10 +28,12 @@ public class ActivitySelectionWithSorting {
                 endLast = arr[i][2];
             }
         }
+
         System.out.println("Max Activities : " + maxAct);
         for (int j = 0; j < list.size(); j++) {
-            System.out.print(list.get(j) + "A  ");
+            System.out.print(list.get(j) + "A ");
         }
         System.out.println();
+
     }
 }

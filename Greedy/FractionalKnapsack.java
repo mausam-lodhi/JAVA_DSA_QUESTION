@@ -19,12 +19,12 @@ public class FractionalKnapsack {
         }
 
         Arrays.sort(comparator, Comparator.comparingDouble(o -> comparator[0][3]));
-        // for (int i = 0; i < comparator.length; i++) {
-        // for (int j = 0; j < comparator[0].length; j++) {
-        // System.out.print(comparator[i][j] + " ");
-        // }
-        // System.out.println();
-        // }
+        for (int i = 0; i < comparator.length; i++) {
+            for (int j = 0; j < comparator[0].length; j++) {
+                System.out.print(comparator[i][j] + " ");
+            }
+            System.out.println();
+        }
         for (int i = 0; i < comparator.length; i++) {
             if (capacity >= comparator[i][2]) {
                 value = value + comparator[i][1];

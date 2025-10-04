@@ -27,5 +27,6 @@ public class MiminumIndianCoins {
             }
         }
         System.out.print("The notes or the coins you must required are " + count);
+        input.close();
     }
 }

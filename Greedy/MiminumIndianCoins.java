@@ -3,6 +3,8 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class MiminumIndianCoins {
+
+    // It is used just for the canonical system currencies
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Integer indianCurrencySystem[] = { 1, 2, 5, 10, 20, 50, 100, 500, 1000, 2000 };

@@ -1,4 +1,4 @@
-class Solution {
+class MidOfSortedArr {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i = 0;
         int j = 0;

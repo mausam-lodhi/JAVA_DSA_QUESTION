@@ -19,6 +19,7 @@ public class printSubArrays {
                 System.out.println(str);
             }
             System.out.println();
+
         }
     }
 

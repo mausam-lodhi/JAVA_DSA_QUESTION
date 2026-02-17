@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
     public static int factorialFindByRecusion(int number) {
         if (number == 0)
             return 1;

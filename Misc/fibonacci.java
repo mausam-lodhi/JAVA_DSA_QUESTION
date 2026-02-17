@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class fibonacci {
+public class Fibonacci {
 
     public static int sumOfNumber(int n) {
         if (n == 0) {

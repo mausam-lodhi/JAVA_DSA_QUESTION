@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.LinkedList;
 
-public class practice {
+public class Practice {
     // code for reversing a queue upto the given numbers
     // public static void queueReverse(Deque<Integer> queue, int index) {
     // Queue<Integer> queue2 = new LinkedList<>();

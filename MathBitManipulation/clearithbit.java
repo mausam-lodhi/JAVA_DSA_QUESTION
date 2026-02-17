@@ -1,4 +1,4 @@
-public class clearithbit {
+public class Clearithbit {
 
     public static int ClearIthBit(int number, int index) {
         return (number & (~(index << 1)));

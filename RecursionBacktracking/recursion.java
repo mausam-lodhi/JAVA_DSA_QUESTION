@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class recursion {
+public class Recursion {
     public static int sumOfNumber(int n) {
         if (n == 1) {
             return 1;

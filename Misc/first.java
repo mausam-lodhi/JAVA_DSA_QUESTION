@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class first {
+public class First {
     public static void arrayChange(int arr[], int size) {
         size = 10;
         for (int i = 0; i < arr.length; i++) {

@@ -1,4 +1,4 @@
-public class  transpose{
+public class Transpose {
     public static void main(String[] args) {
         int nums[][] = { { 1, 4, 9 }, { 11, 4, 3 }, { 2, 2, 3 } };
         int temp = 0;

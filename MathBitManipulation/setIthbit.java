@@ -1,6 +1,6 @@
 import javax.imageio.plugins.tiff.GeoTIFFTagSet;
 
-public class setIthbit {
+public class SetIthbit {
     public static int SetIthBit(int number, int index) {
         return (number << index) | number;
     }
